@@ -85,9 +85,9 @@ def distance(ax,ay,bx,by):
     AB = math.sqrt(AC**2 + BC**2)
     return AB
 
-Ax = int(input('Enter the X coordinate of point А: '))
-Ay = int(input('Enter the Y coordinate of point А: '))
-Bx = int(input('Enter the X coordinate of point B: '))
-By = int(input('Enter the Y coordinate of point B: '))
+ax = int(input('Enter the X coordinate of point А: '))
+ay = int(input('Enter the Y coordinate of point А: '))
+bx = int(input('Enter the X coordinate of point B: '))
+by = int(input('Enter the Y coordinate of point B: '))
 result = round(distance(Ax,Ay,Bx,By),3)
 print(f'The distance between point А({Ax}, {Ay}) and point B({Bx}, {By}) is {result}')
